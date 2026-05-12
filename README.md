@@ -1,4 +1,4 @@
-# 🎓 Elite University - Academic Portal
+# 🎓 Elite University 
 
 A modern, responsive web application designed to manage university-related content, including courses, student resources, and administrative information. This project focuses on providing a seamless user experience for both students and faculty members.
 
