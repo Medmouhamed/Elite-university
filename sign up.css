@@ -1,0 +1,76 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:  url(img/17213260_rm373batch13-085.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.sign{
+    width: 450px;
+    height: 550px;
+    padding: 0 75px ;
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    box-sizing: border-box;
+    margin: 20px 70px;
+}
+
+.sign h1{
+    margin: 0;
+    padding: 20px 20px;
+    text-align: center;
+    color: gold;
+}
+
+.signform label{
+    color: goldenrod;
+    font-weight: bold;
+}
+
+.signform input{
+    width: 100%;
+    margin: 10px 0 ;
+    border-radius: 40px;
+    height: 30px; 
+    position: relative;
+}
+
+.signform input::placeholder {
+    position: absolute;
+    left: 15px;
+}
+
+.signform button{
+    width: 35%;
+    height: 30px;
+    background-color: gold;
+    display: block;
+    font-weight: bolder;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 15px auto 15px auto;
+    transition: 0.3s;
+}
+
+.signform button:hover {
+    transform: scale(1.1);
+    background-color: goldenrod;
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+
+a{
+    color: gold;
+    text-decoration: none;
+}

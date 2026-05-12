@@ -1,0 +1,80 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:  url(img/17213260_rm373batch13-085.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.logo{
+    width: 450px;
+    height: 400px;
+    padding: 0 75px ;
+    position: absolute;
+    background: rgb(0, 0, 0,0.5);
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 20px 70px;
+    
+}
+
+.logo h1{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding: 20px 20px;
+    text-align: center;
+    color: gold;
+}
+
+.logoform label{
+    color: goldenrod;
+    font-weight: bold;
+}
+
+.logoform input{
+    width: 100%;
+    margin: 10px 0 ;
+    border-radius: 40px;
+    height: 30px; 
+    position: relative;
+}
+
+.logoform input::placeholder {
+    position: absolute;
+    left: 15px;
+}
+
+.logoform button{
+    width: 35%;
+    height: 30px;
+    background-color: gold;
+    display: block;
+    font-weight: bolder;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 25px auto 30px auto;
+    transition: 0.3s;
+}
+
+.logoform button:hover {
+    transform: scale(1.1);
+    background-color: goldenrod;
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+
+a{
+    color: gold;
+    text-decoration: none;
+}

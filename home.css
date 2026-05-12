@@ -1,0 +1,125 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo img{
+    width: 50px;
+    height: auto;
+}
+
+header{
+    background-color: gold;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.section ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.section  a{
+    text-decoration: none;
+    color: black;
+}
+
+.section a:hover{
+    font-size: large;
+    color: red;
+}
+
+.out  a{
+    text-decoration: none;
+    color: black;
+}
+
+.out a:hover{
+    font-size: large;
+    color: red;
+}
+
+.out img{
+    width: 15px;
+    height: auto;
+}
+
+.out{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+body{
+    background: url(img/3.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.card {
+    width: 325px;
+    background-color: gold;
+    border-radius: 8px;
+    margin: 20px;
+    transition: transform 0.3s ease;
+}
+
+.card img{
+    width: 100%;
+    height: 300px;
+    border-radius: 8px 8px 0 0;
+}
+
+.name{
+    padding: 16px;
+    font-size: 28px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    color: red;
+}
+
+.card-container  a{
+    text-decoration: none;
+    color: black;
+}
+
+.Elite{
+   font-size: larger;
+   font-family: "Lucida Blackletter";
+   color: red;
+}
+
+footer{
+    background-color: gold;
+    text-align: center;
+    margin-top: 45px;
+    height: 50px;
+    padding-top: 15px;
+}

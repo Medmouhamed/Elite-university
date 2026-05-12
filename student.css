@@ -1,0 +1,188 @@
+.search-box{
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    margin: 20px auto;
+    margin-top: 80px;
+    border: 2px solid gold;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.search-box input{
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-box button{
+    background-color: gold;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-box button:hover{
+    background-color: goldenrod;
+}
+
+.students{
+    text-align: center;
+    font-size: 45px;
+    color: gold;
+    margin-bottom: 30px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: url(img/3.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.cards {
+    border: solid gold;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.cards:hover {
+    transform: translateY(-5px);
+    border: solid goldenrod;
+}
+
+.cards img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.cards p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.cards button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    font-size: 14px;
+    background-color: gold;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.cards button:hover {
+    background-color: goldenrod;
+}
+
+.cards p{
+    color: white;
+}
+
+b{
+    color: orange;
+}
+
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo img{
+    width: 50px;
+    height: auto;
+}
+
+header{
+    background-color: gold;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.section ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.section  a{
+    text-decoration: none;
+    color: black;
+}
+
+.section a:hover{
+    font-size: large;
+    color: red;
+}
+
+.out  a{
+    text-decoration: none;
+    color: black;
+}
+
+.out a:hover{
+    font-size: large;
+    color: red;
+}
+
+.out img{
+    width: 15px;
+    height: auto;
+}
+
+.out{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.Elite{
+    font-size: larger;
+    font-family: "Lucida Blackletter";
+    color: red;
+ }
+
+ footer{
+    background-color: gold;
+    text-align: center;
+    margin-top: 45px;
+    height: 50px;
+    padding-top: 15px;
+}
+
